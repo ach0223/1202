@@ -1,0 +1,243 @@
+.title{position: absolute;top: 5%;left:5%;}
+
+.sttitle{
+	/*stroke-dasharray: 250 250;
+	stroke-dashoffset: 250;*/ 
+
+	animation-name:draw;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes draw {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.title2{position: absolute;top: 25%;right:3%;}
+
+.sttitle{
+	/*stroke-dasharray: 250 250;
+	stroke-dashoffset: 250;*/ 
+
+	animation-name:draw;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes draw {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+
+.text{position: absolute;left: 5%;top: 17%;
+		animation-name: txt;
+		animation-duration: 4s;
+		animation-fill-mode: forwards;}
+@keyframes txt {
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+.text2{position: absolute;left: 5%;bottom: 10%;
+		animation-name: txt;
+		animation-duration: 4s;
+		animation-fill-mode: forwards;}
+@keyframes txt {
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+.text3{position: absolute;right: 31%;bottom: 7.5%;
+		animation-name: txt;
+		animation-duration: 4s;
+		animation-fill-mode: forwards;}
+@keyframes txt {
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+
+
+.line1{position: absolute;bottom: 0%;left: 15%;}
+.line1-1{
+	stroke-dasharray: 250 250;
+	stroke-dashoffset: 250; 
+
+	animation-name:draww;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	
+
+	}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.line2{position: absolute;bottom: 0%;left: 0%;}
+.stline2{
+	stroke-dasharray: 300 300;
+	stroke-dashoffset: 300; 
+
+	animation-name:draww;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+
+}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.line3{position: absolute;bottom: 0%;left: 33%;}
+.stline2{
+	stroke-dasharray: 300 300;
+	stroke-dashoffset: 300; 
+
+	animation-name:draww;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+
+}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.line4{position: absolute;bottom: 0%;left: 40%;}
+.stline2{
+	stroke-dasharray: 300 300;
+	stroke-dashoffset: 300; 
+
+	animation-name:draww;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+
+}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.line5{position: absolute;top: 0%;right: 5%;}
+.line1-1{
+	stroke-dasharray: 250 250;
+	stroke-dashoffset: 250; 
+
+	animation-name:draww;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	
+
+	}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.line6{position: absolute;top: 30%;right: 0%;}
+.line1-1{
+	stroke-dasharray: 250 250;
+	stroke-dashoffset: 250; 
+
+	animation-name:draww;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	
+
+	}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+
+.bgline1{position: absolute;bottom: 25%;left: 10%;opacity: 50%}
+.bgline1-1{
+	stroke-dasharray: 250 250;
+	stroke-dashoffset: 250; 
+
+	animation-name:draww;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+
+
+
